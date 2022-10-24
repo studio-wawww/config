@@ -24,6 +24,19 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "description": "This is an official Yarn v1 starter turborepo.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studio-wawww/config.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "Antoine Tardivel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studio-wawww/config/issues"
+  },
+  "homepage": "https://github.com/studio-wawww/config#readme"
 }
