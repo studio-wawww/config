@@ -10,6 +10,9 @@
     },
     "clean": {
       "outputs": []
+    },
+    "format": {
+      "outputs": []
     }
   }
 }
