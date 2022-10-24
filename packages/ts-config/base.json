@@ -1,0 +1,47 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node 16",
+    "compilerOptions": {
+        "lib": [
+            "ESNext"
+        ],
+        "module": "ESNext",
+        "target": "ESNext",
+        "baseUrl": "../..",
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "composite": true,
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": false,
+        "isolatedModules": false,
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "preserveWatchOutput": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "incremental": true,
+        "disableSourceOfProjectReferenceRedirect": true,
+        "paths": {
+            "@studio-wawww/*": [
+                "../*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "**/build/*",
+        "./build/**/*",
+        "**/dist/*",
+        "./dist/**/*",
+        "**/tests/*",
+        "**/__tests__/*",
+        "**/*.test.ts"
+    ]
+}

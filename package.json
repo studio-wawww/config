@@ -1,19 +1,23 @@
 {
-  "name": "config",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@studio-wawww/config",
+  "version": "1.0.0",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
+    "prepare": "husky install",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
+    "clean": "yarn clean:turbo && yarn clean:watchman && yarn clean:watchman && yarn clean:monorepo",
+    "clean:turbo": "yarn turbo run clean",
+    "clean:watchman": "watchman watch-del-all && yarn cache clean",
+    "clean:monorepo": "rm -rf node_modules && echo > yarn.lock"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "husky": "^8.0.1",
     "prettier": "latest",
     "turbo": "latest"
   },

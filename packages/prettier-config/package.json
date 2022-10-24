@@ -1,0 +1,9 @@
+{
+    "name": "@studio-wawww/prettier-config",
+    "description": "A shared Prettier config",
+    "main": "index.js",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=16"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "@studio-wawww/eslint-config",
+    "version": "1.0.0",
+    "main": "index.js",
+    "engines": {
+        "node": ">=16"
+    },
+    "scripts": {
+        "clean": "rm -rf .turbo && rm -rf node_modules "
+    },
+    "devDependencies": {
+        "@studio-wawww/prettier-config": "*",
+        "@typescript-eslint/eslint-plugin": "^5.14.0",
+        "@typescript-eslint/parser": "^5.14.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-css-modules": "^2.11.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "eslint-plugin-sonarjs": "^0.12.0"
+    },
+    "prettier": "@studio-wawww/prettier-config"
+}
