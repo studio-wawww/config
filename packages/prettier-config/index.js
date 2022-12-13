@@ -10,8 +10,9 @@ module.exports = {
   tabWidth: 2,
   useTabs: false,
   semi: true,
-  singleQuote: false,
-  trailingComma: 'all',
+  singleQuote: true,
+  trailingComma: 'none',
   bracketSpacing: true,
   proseWrap: 'always',
-};
+  stylelintIntegration: true
+}
